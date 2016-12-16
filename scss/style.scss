@@ -1,0 +1,86 @@
+@import "settings";
+.wrapper{
+	max-width: 980px;
+	margin: 0 auto;
+}
+.first-block{
+	position: relative;
+}
+header{
+	background-image: url("../img/main2.png");
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+.logo{
+	text-align: center;
+}
+.logo img{
+	max-width: 200px;
+	padding-top: 20px;
+}
+.menu ul{
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li+li{
+	padding-left: 10px;
+	
+}
+.menu ul li a{
+	color: #fff;
+	font-family: "PoiretOne";
+	font-size: 18px;
+	padding-bottom: 5px;
+
+}
+.menu ul li a:hover{
+	text-decoration: none;
+}
+
+.menu ul li a::after{
+	content: " ";
+	display: block;
+	width: 0%;
+	background-color: transparent;
+	height: 3px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	transition: all .5s ease-in-out;
+}
+.menu ul li a:hover::after{
+	background-color: #f75f6d;
+	width: 100%;
+	transition: all .5s ease-in-out;
+}
+.menu-trigger{
+	display: none;
+}
+.head-text{
+	max-width: 980px;
+	text-align: right;
+	margin-right: 25px;
+}
+.head-text h1{
+	color: #fff;
+	font-size: 50px;
+	font-family: "Andika";
+	text-shadow: -2px 3px 3px #000;
+}
+.head-text p{
+	color: #fff;
+	font-size: 50px;
+	font-family: "Andika";
+	text-shadow: -2px 3px 3px #000;
+}
+.head-text h2{
+	font-size: 56px;
+	font-family: "Bungee";
+	color: #f75f6d;
+	text-shadow: -2px 3px 3px #000;
+}
+.head-text h2 span{
+	color: #21aad4;
+}
